@@ -1,0 +1,3 @@
+load Snail Snail.ppm
+luma Snail snail-luma-script
+save snail-luma-script snail-luma-script.ppm

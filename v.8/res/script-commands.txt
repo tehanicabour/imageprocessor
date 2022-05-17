@@ -1,0 +1,31 @@
+load Snail Snail.ppm
+brighten 50 Snail SnailBrighterBy50
+save SnailBrighterBy50 resTester/SnailBrighterBy50.ppm
+brighten -50 Snail SnailDarkerBy50
+save SnailDarkerBy50 resTester/SnailDarkerBy50.ppm
+luma Snail SnailLuma
+save SnailLuma resTester/SnailLuma.ppm
+intensity Snail SnailIntensity
+save SnailIntensity resTester/SnailIntensity.ppm
+value-component Snail SnailMaxValueComponent
+save SnailMaxValueComponent resTester/SnailMaxValueComponent.ppm
+horizontal-flip Snail SnailHorizontal
+save SnailHorizontal resTester/SnailHorizontal.ppm
+vertical-flip Snail SnailVertical
+save SnailVertical resTester/SnailVertical.ppm
+red-component Snail SnailGreyScaleRed
+save SnailGreyScaleRed resTester/SnailGreyScaleRed.ppm
+blue-component Snail SnailGreyScaleBlue
+save SnailGreyScaleBlue resTester/SnailGreyScaleBlue.ppm
+green-component Snail SnailGreyScaleGreen
+save SnailGreyScaleGreen resTester/SnailGreyScaleGreen.ppm
+sepia Snail SnailSepia
+save SnailSepia resTester/SnailSepia.ppm
+sharpen Snail SnailSharpen
+save SnailSharpen resTester/SnailSharpen.ppm
+blur Snail SnailBlur
+save SnailBlur resTester/SnailBlur.ppm
+load catan catan.jpg
+blur catan catanBlur
+save catanBlur resTester/catanBlur.jpg
+

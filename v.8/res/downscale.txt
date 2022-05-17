@@ -1,0 +1,24 @@
+load mushroom mushroom.jpg
+downscale 50 50 mushroom mushroom-downscale-50-save
+save mushroom-downscale-50-save mushroom-downscale-50-save.jpg
+downscale 100 150 mushroom mushroom-downscale-100-150-save
+save mushroom-downscale-100-150-save mushroom-downscale-100-150-save.jpg
+load mask-half mask-half.png
+blur mushroom mushroom-blur
+save mushroom-blur mushroom-blur.jpg
+partial-image mask-half blur mushroom mushroom-half-blur
+save mushroom-half-blur mushroom-half-blur.png
+partial-image mask-half sharpen mushroom mushroom-half-sharpen
+save mushroom-half-sharpen mushroom-half-sharpen.png
+partial-image mask-half red-component mushroom mushroom-half-red-component
+save mushroom-half-red-component mushroom-half-red-component.png
+partial-image mask-half green-component mushroom mushroom-half-green-component
+save mushroom-half-green-component mushroom-half-green-component.png
+partial-image mask-half blue-component mushroom mushroom-half-blue-component
+save mushroom-half-blue-component mushroom-half-blue-component.png
+partial-image mask-half luma mushroom mushroom-half-luma
+save mushroom-half-luma mushroom-half-luma.png
+partial-image mask-half intensity mushroom mushroom-half-intensity
+save mushroom-half-intensity mushroom-half-intensity.png
+partial-image mask-half sepia mushroom mushroom-half-sepia
+save mushroom-half-sepia mushroom-half-sepia.png
